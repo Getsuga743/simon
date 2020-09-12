@@ -1,0 +1,84 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(15, 15, 15);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(20, 20, 20);
+  width: 99vw;
+  height: 99vh;
+  overflow: hidden !important;
+}
+.simon {
+  margin: 0 !important;
+  width: 252px !important;
+  height: 252px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  box-shadow: 2px 2px 14px #000, -2px -2px 12px #000 !important;
+  z-index: 0;
+}
+.btn-1 {
+  box-shadow: 2px 2px 14px #000, -2px -2px 12px #000 !important;
+  border-radius: 260px 10px 160px 10px;
+  top: 130px;
+  right: 15px;
+}
+.btn-2 {
+  box-shadow: 2px 2px 14px #000, -2px -2px 12px #000 !important;
+  border-radius: 10px 260px 10px 160px;
+  top: 130px;
+  left: 15px;
+}
+
+.btn-3 {
+  box-shadow: 2px 2px 14px #000, -2px -2px 12px #000 !important;
+  border-radius: 160px 10px 260px 10px;
+  bottom: 130px;
+  left: 15px;
+}
+.btn-4 {
+  box-shadow: 2px 2px 14px #000, -2px -2px 12px #000 !important;
+  border-radius: 10px 160px 10px 260px;
+  bottom: 130px;
+  right: 15px;
+}
+.turn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: auto 250px;
+  padding: auto;
+  width: fit-content;
+}
+.middle {
+  display: flex;
+  align-content: center;
+  height: 300px;
+  width: 300px;
+
+  overflow: hidden;
+  margin: auto;
+  padding: auto;
+  z-index: 100;
+  background: rgb(17, 17, 17);
+  box-shadow: 2px 2px 5px #000, -2px -2px 5px #000 !important;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.btn {
+  margin-left: 50%;
+}
+#start {
+  margin: auto;
+  padding: auto;
+}
